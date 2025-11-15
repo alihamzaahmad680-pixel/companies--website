@@ -434,9 +434,23 @@ font-size:30px;
     margin-top: none;
   }
 .nav-links{
-    margin-top: 50px;
+    margin-top: 50px; 
     padding-top: 200px;
 }
+.primary-button{
+    margin-top: 30px;
+}
+.header-left{
+    margin-bottom: 100px;
+    height: 200px;
+}
+.company-logo{
+    margin-top: 150px;
+}
+
 
 }
+
+
+
 
