@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Built a Webside Using html and css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><!--top-banner-->
+<div class="container">
+  <div class="small-bold-text banner-text">😊New the useability Hub:open and close sorting</div>
+</div>
+
+<nav>
+  <div class="container main-nav flex"> 
+    <div class="nav-links">
+      <a href="#" class="company-logo">
+        <img src="./assets/asset0.png" alt="company-logo">
+      </a>
+      <button class="icon"><i class="fa-solid fa-bars"></i></button>
+      <ul class="flex" id="mobileMenu">
+        <li><a href="#" class="hover-links">products</a></li>
+        <li><a href="#" class="hover-links">customer</a></li>
+        <li><a href="#" class="hover-links">pricing</a></li>
+        <li><a href="#" class="hover-links">resources</a></li>
+        <li><a href="#" class="hover-links secondary-button">sign-in</a></li>
+        <li><a href="#" class="hover-links primary-button">sign-up</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <script>
+const btn = document.querySelector('.icon');
+const menu = document.getElementById('mobileMenu');
+
+btn.addEventListener('click', () => {
+    btn.classList.toggle('active');   // icon cross banay
+    menu.classList.toggle('show');    // menu show/hide
+});
+</script>
+            
+            <header>
+        <div class="container header-section flex">
+            <div class="header-left">
+                <h1 class="h1">Design confidently</h1>
+                <p class="paragraph">useabilityHub is a remote useresearch plateform that take the guessswork out of design 
+                    desion validating them with real user.
+                </p>
+                <a href="#" class="primary-button">Get started</a>
+            </div>
+            <div class="header-right">
+                <img src="assets/asset1.jpeg" alt="">
+            </div>
+        </div>
+        </header>
+    </header>
+
+
+    <section class="companies section">
+    <div class="container">
+        <div class="small-bold-text companies-header"><h2 class="companies-heading">Different Companies</h2>  
+            
+            <div class="logos flex">
+                <img class="logos" src="./assets/asset2.png" alt="">
+                <img class="logos" src="./assets/asset3.png" alt="">
+                <img class="logos" src="./assets/asset4.png" alt="">
+                <img class="logos" src="./assets/asset5.png" alt="">
+                <img class="logos" src="./assets/asset6.png" alt="">
+                <img class="logos" src="./assets/asset7.svg" alt="">
+                <img class="logos" src="./assets/asset8.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+<div>
+    <div>
+    <section class="feature section">
+        <div class="container">
+            <div class="feature-header">
+                <h2>Your user reserch swiss Army knife</h2>
+                <a href="#" class="secondary-button">See all feature <i class="fa-solid fa-right-long"></i></a>
+            </div>
+            <div class="features-area flex">
+                <div class="features-card flex">
+                    <img src="assets/asset 9.svg" alt="">
+                    <h3>Card sorting</h3>
+                                      
+                    <p>Discover how people group and lable information.</p>
+  <a href="#" class="secondary-button">Learn more<i class="fa-solid fa-right-long"></i></a>
+                </div> <div class="features-card flex">
+                    <img src="assets/asset 10.svg" alt="">
+                    <h3>prototype teste</h3>
+                                      
+                    <p>Discover how
+                        people navigate Your figma prototypes.
+                    </p>
+  <a href="#" class="secondary-button">Learn more<i class="fa-solid fa-right-long"></i></a>
+                </div> <div class="features-card flex">
+                    <img src="assets/asset 11.svg" alt="">
+                    <h3>File click teste</h3>
+                                      
+                    <p>Test interaction with first click and navigate tests</p>
+  <a href="#" class="secondary-button">Learn more<i class="fa-solid fa-right-long"></i></a>
+                </div>
+                <div class="features-card flex">
+                    <img src="assets/asset 12.svg" alt="">
+                    <h3>Design serveys</h3>
+                                      
+                    <p>Get feedback on image and video our auto files. </p>
+  <a href="#" class="secondary-button">Learn more<i class="fa-solid fa-right-long"></i></a>
+                </div><div class="features-card flex">
+                    <img src="assets/asset 13.svg" alt="">
+                    <h3>Preference tasts</h3>
+                                      
+                    <p>Find out which design users prefer and why.</p>
+  <a href="#" class="secondary-button">Learn more<i class="fa-solid fa-right-long"></i></a>
+                </div>
+                <div class="features-card flex">
+                    <img src="assets/asset 14.svg" alt="">
+                    <h3>Five second tasts </h3>
+                                      
+                    <p>Test comprenhensibility by mearsuring first impressions.</p>
+  <a href="#" class="secondary-button">Learn more<i class="fa-solid fa-right-long"></i></a>
+                </div>
+                </div>  
+            </div>
+        </div>
+        
+    </section></section>
+
+
+    <section class="big feature-section">
+        <div class="container flex big-features-container">
+            <div class="feature-img">
+                <img src="./assets/asset 15.png" alt="">
+
+            </div>
+            <div class="features-description flex">
+                <h3 class="heading">Effortless validation for</h3>
+                <h3 class="heading">Design professionals</h3>
+                <p>Test interfaces, interaction flows,iconography and more to help you create intuitive 
+                    and delightful expressions for Your users.
+                </p>
+            </div>
+        </div>
+    </section>
+
+     <section class="big feature-section">
+        <div class="container flex big-features-container" >
+            <!-- style="flex-direction: row-reverse; -->
+            <div class="feature-img">
+                <img class="img" src="./assets/asset 20.png" alt="">
+
+            </div>
+            <div class="features-description flex">
+                <h3 class="heading">Effortless validation for</h3>
+                <h3 class="heading">Design professionals</h3>
+                <p>Test interfaces, interaction flows,iconography and more to help you create intuitive 
+                    and delightful expressions for Your users.
+                </p>
+            </div>
+        </div>
+    </section>
+
+ <section class="big feature-section">
+        <div class="container flex big-features-container">
+            <div class="feature-img">
+                <img src="./assets/asset 21.png" alt="">
+
+            </div>
+            <div class="features-description flex">
+                <h3 class="heading">Effortless validation for</h3>
+                <h3 class="heading">Design professionals</h3>
+                <p>Test interfaces, interaction flows,iconography and more to help you create intuitive 
+                    and delightful expressions for Your users.
+                </p>
+            </div>
+        </div>
+    </section>
+
+<section class="examle">
+    <div class="container">
+        <div class="examples-header ">
+            <div class="feature-header">
+                <h2>One plateform, endlesss possibilities</h2>
+                <a href="#" class="secondary-button">see more examples<i class="fa-solid fa-right-long"></i></a>
+            </div>
+        </div>
+        <div class="examples-area flex">
+            <a href="#" class="example-card">
+                <h3 class="card-text">User can complete a tesk in my software interface?</h3>
+            </a>
+             <a href="#" class="example-card">
+                <h3 class="card-text">User can complete a tesk in my software interface?</h3>
+            </a>
+             <a href="#" class="example-card">
+                <h3 class="card-text">User can complete a tesk in my software interface?</h3>
+            </a>
+             <a href="#" class="example-card">
+                <h3 class="card-text">User can complete a tesk in my software interface?</h3>
+            </a>
+            
+
+        </div>
+    </div>
+
+</section>
+<!--cta section-->
+    
+<section class="cta-section"> 
+    <div class="container flex cta-section-container">
+        <h2>Start testing today</h2>
+        <p>Take the guessswork out of decision</p>
+        <a href="#" class="primary-button">Get started</a>
+    </div>
+    
+</section>
+<!--footer-->
+
+<footer>
+
+<div class="container flex footer-container">
+    <a href="#" class="company-logo">
+        <img src="./assets/asset0.png" alt="">
+    </a>
+    <div class="link-column flex">
+        <h4>products</h4>
+            <a href="#" class="hover-link">Overview</a>
+            
+            
+            <a href="#" class="hover-link">pricing</a>
+                        <a href="#" class="hover-link">useabilityHub</a>
+                                    <a href="#" class="hover-link">Customer page</a>
+                                                <a href="#" class="hover-link">Status page</a>
+        
+    </div>
+
+    <div class="link-column flex">
+        <h4>Mathodology</h4>
+            <a href="#" class="hover-link">Overview</a>
+
+            <a href="#" class="hover-link">pricing</a>
+                        <a href="#" class="hover-link">useabilityHub</a>            
+                                    <a href="#" class="hover-link">Customer page</a>
+                                                <a href="#" class="hover-link">Status page</a>
+        
+</div>
+<div class="link-column flex">
+        <h4>resources</h4>
+            <a href="#" class="hover-link">Overview</a>
+            
+            <a href="#" class="hover-link">pricing</a>
+                        <a href="#" class="hover-link">useabilityHub</a>
+                                    <a href="#" class="hover-link">Customer page</a>
+                                                <a href="#" class="hover-link">Status page</a></div>
+        
+</footer>
+<div class="subfooter">
+    <div class="container flex subfooter-container">
+<a href="#" class="hover-link">Privacy policy</a>
+<a href="#" class="hover-link">Terms of condition</a>
+<a href="#" class="hover-link">Security information</a>
+<a class="hover-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a class="hover-link" href="#"><i class="fa-brands fa-square-twitter"></i></a>
+    </div> 
+</div>
+</body>
+<script src="https://kit.fontawesome.com/4886582d95.js" crossorigin="anonymous"></script>
+<h1 class="text">Design By Ali Hamza Developer</h1>
+</body>
