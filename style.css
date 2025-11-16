@@ -12,6 +12,8 @@
     --padding-inline-section:20px;
 }
 body{
+     overflow-x: hidden;
+  overflow-y: auto; 
     font-family:" Poppins", sans-serif;
     color: var(--primary-text-colour);
 }
@@ -440,16 +442,20 @@ font-size:30px;
 .primary-button{
     margin-top: 30px;
 }
-.header-left{
-    margin-bottom: 100px;
-    height: 200px;
-}
+
 .company-logo{
-    margin-top: 150px;
+    margin-top:-70px;
+}
+ .Ali{
+    margin-top:-400px;
+ }
+ .companies-heading{
+    margin-top: 300px;
+ }
 }
 
 
-}
+
 
 
 
