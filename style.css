@@ -494,6 +494,8 @@ html{
 }
 .secondary-button{
     width: 160px;
+    font-size: 20px;
+    height: 55px;
 }
 
 }
