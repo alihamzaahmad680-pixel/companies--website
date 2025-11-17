@@ -286,6 +286,7 @@ font-size:40px;
 .heading{
    font-size:25px;
     color: #403c3c;
+    color: black;
 }
 .companies-heading{
     text-align: center;
@@ -376,9 +377,7 @@ font-size:40px;
 .feature-header{
     padding-top: 300px;
 }
-  /* .nav-links{
-    display: none;
-}   */
+  
 .hover-link{
     padding-top: 10px;
 }
@@ -429,8 +428,9 @@ font-size:40px;
   .icon{
     width: 20px;
     height: 15px;
-    border: none;
-    background-color: none;
+    border: 3px;
+    
+    
   }
   .header{
     margin-top: none;
@@ -447,9 +447,7 @@ font-size:40px;
     
     margin-bottom: -200px;
 }
- /* .Ali{
-    margin-top:200px;
- } */
+
  .companies-heading{
     margin-top: 150px;
  }
@@ -491,8 +489,13 @@ html{
 .company-logo{
     margin-bottom: 20px;
 }
+.Ali{
+    margin-top: -700px;
+}
+.company-logo{
+    margin-top: -220px;
+}
 
- 
 }
 
 
