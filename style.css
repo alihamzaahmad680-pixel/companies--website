@@ -471,10 +471,13 @@ font-size:30px;
 #header{
     margin-top: -500px;
 }
-body{
+/* body{
+    overflow-x: hidden;
+    
+} */
+html{
     overflow-x: hidden;
 }
-
 }
 
 
