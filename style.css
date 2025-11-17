@@ -471,6 +471,9 @@ font-size:30px;
 #header{
     margin-top: -500px;
 }
+body{
+    overflow-x: hidden;
+}
 
 }
 
