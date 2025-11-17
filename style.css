@@ -452,8 +452,27 @@ font-size:30px;
  .companies-heading{
     margin-top: 150px;
  }
+
+ .feature-header{
+    margin-top: -500px;
+ }
+ .feature-img{
+    margin-top: -300px;
+ }
+ #img{
+    margin-top: 30px;
+ }
+.companies{
+    margin-top: 100px;
+}
+.feature-header{
+    margin-top: 50px;
+}
+#header{
+    margin-top: -500px;
 }
 
+}
 
 
 
