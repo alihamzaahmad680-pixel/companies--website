@@ -281,7 +281,7 @@ footer{
 .text{
 text-align: center;
 color: red;
-font-size:30px;
+font-size:40px;
 }
 .heading{
    font-size:25px;
@@ -447,9 +447,9 @@ font-size:30px;
     
     margin-bottom: -200px;
 }
- .Ali{
-    margin-top:-550px;
- }
+ /* .Ali{
+    margin-top:200px;
+ } */
  .companies-heading{
     margin-top: 150px;
  }
@@ -482,6 +482,17 @@ html{
 #right{
     margin-top: 100px;
 }
+.text{
+    font-size: 30px;
+}
+.cta-section-container{
+    margin-bottom: 20px;
+}
+.company-logo{
+    margin-bottom: 20px;
+}
+
+ 
 }
 
 
