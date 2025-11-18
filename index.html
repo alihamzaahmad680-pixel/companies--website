@@ -17,6 +17,7 @@
       <a href="#" class="company-logo">
         <img src="./assets/asset0.png" alt="company-logo">
       </a>
+      
       <button class="icon"><i class="fa-solid fa-bars"></i></button>
       <ul class="flex" id="mobileMenu">
         <li><a href="#" class="hover-links">products</a></li>
@@ -31,7 +32,7 @@
 </nav>
 
 
-    <script>
+    <!-- <script>
 const btn = document.querySelector('.icon');
 const menu = document.getElementById('mobileMenu');
 
@@ -39,8 +40,51 @@ btn.addEventListener('click', () => {
     btn.classList.toggle('active');   // icon cross banay
     menu.classList.toggle('show');    // menu show/hide
 });
-</script>
+</script> -->
             
+
+
+<script>
+const navToggle = document.querySelector('.nav-toggle');
+const navList = document.querySelector('.list');
+const navIcon = navToggle.querySelector('i');
+
+navToggle.addEventListener('click', (e) => {
+  e.preventDefault();
+  navList.classList.toggle('show');
+
+  if(navList.classList.contains('show')) {
+    navIcon.classList.remove('fa-bars');
+    navIcon.classList.add('fa-xmark');
+  } else {
+    navIcon.classList.remove('fa-xmark');
+    navIcon.classList.add('fa-bars'); 
+  }
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <header class="Ali">
         <div class="container header-section flex">
             <div class="header-left">
