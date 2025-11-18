@@ -410,7 +410,9 @@ font-size:40px;
     color: red; 
     width: 100px;
     gap: 1px;
-    height: 350px;}
+    height: 350px;
+    margin-top: 100px;
+}
 .nav-links ul.show { display:flex; }
 .nav-links ul.show {
     display: flex;            
@@ -509,7 +511,18 @@ html{
 #page{
     margin-left: -60px;
 }
+.hover-link{
+    margin-left:-5px;
+}
 
+#Mathodology{
+    margin-left: -35px;
+}
+.icon{
+
+    margin-left: 220px;
+    margin-top: -70px;
+}
 }
 
 
