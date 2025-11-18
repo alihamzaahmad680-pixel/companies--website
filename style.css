@@ -493,9 +493,16 @@ html{
     margin-top: -220px;
 }
 .secondary-button{
-    width: 160px;
+    width: 230px;
     font-size: 20px;
     height: 55px;
+    
+}
+#button{
+    height: 55px;
+    width: 90px;
+   
+    padding-left:none;
 }
 
 }
